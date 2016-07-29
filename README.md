@@ -4,7 +4,7 @@ Submitted for Coursera Certification
 
 -----------------------------------------------------------
 
-Script name:  run_analysis.R
+Script name: run_analysis.R
 
 ---------------------------------------------------------------------------------------
 
@@ -37,3 +37,9 @@ run_analysis.R script consists of 9 steps
 9) Export tidy data set
 
 ---------------------------------------------------------------------------------------
+
+-&gt; Place 'run_analysis.R' in your R working directory
+
+-&gt; Run the script
+
+-&gt; Output file 'tidyDataset.txt' is created in "UCI HAR Dataset" folder
