@@ -43,3 +43,7 @@ run_analysis.R script consists of 9 steps
 -&gt; Run the script
 
 -&gt; Output file 'tidyDataset.txt' is created in "UCI HAR Dataset" folder
+
+-&gt; To read the data - use the following command
+
+          > data<-read.table("./tidyDataset.txt",header=TRUE)
