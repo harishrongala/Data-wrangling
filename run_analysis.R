@@ -4,14 +4,12 @@
 
 ## Data set URL
 dataset_url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip";
-## Check if folder exists, if not create a folder named "Samsung_dataset"
-if(!file.exists("./Samsung_dataset")){dir.create("./Samsung_dataset")};
-## Set working directory to the created folder
-setwd("./Samsung_dataset/");
+## Check if folder exists, if not create a folder named "UCI HAR Dataset"
+if(!file.exists("./UCI HAR Dataset")){dir.create("./UCI HAR Dataset");
 ## Download the zipped data set and save it as data.zip
 download.file(dataset_url,"./data.zip");
 ## Unzip the data set
-unzip("./data.zip")
+unzip("./data.zip")};
 ## data set is extracted in to a folder named "UCI HAR Dataset"
 setwd("./UCI HAR Dataset/")
 
@@ -104,4 +102,4 @@ dataset2<-aggregate(. ~ subjectid + activity, data=subject_activity_sensor_data,
         ## Export tidy data set ##
 
 ## Write "dataset2" as "tidyDataset.txt"
-write.table(dataset2,"./tidyDataset.txt",row.names = FALSE)
+write.table(dataset2,"./tidyDataset.txt",row.name = FALSE)
