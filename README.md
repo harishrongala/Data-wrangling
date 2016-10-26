@@ -1,6 +1,6 @@
-# Getting_and_cleaning_data
+# Getting and cleaning Human Activity Recognition data
 
-Submitted for Coursera Certification
+Dataset: https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 -----------------------------------------------------------
 
